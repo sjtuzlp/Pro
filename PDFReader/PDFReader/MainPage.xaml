@@ -8,7 +8,5 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
-
-    </Grid>
+    <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}"/>
 </Page>

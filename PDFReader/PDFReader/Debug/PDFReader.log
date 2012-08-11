@@ -1,0 +1,80 @@
+﻿Build started 2012/8/11 10:03:30.
+     1>Project "E:\PDF\PDFReader\PDFReader\PDFReader.vcxproj" on node 2 (Build target(s)).
+     1>GetInstalledSDKLocations:
+         Searching for SDKs targeting "Windows, 8.0".
+       ResolveSDKReferences:
+           Reading SDK manifest file "C:\Program Files (x86)\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.VCLibs\11.0\SDKManifest.xml".
+           Targeted configuration and architecture "Debug|x86"
+           Could not find "FrameworkIdentity" attribute "FrameworkIdentity-Debug-x86" in the SDK manifest. 
+           Found "FrameworkIdentity" attribute "Name = Microsoft.VCLibs.110.Debug, MinVersion = 11.0.50522.1" in the SDK manifest.
+           Runtime architecture used to find the appropriate "APPX" attribute is "x86"
+           Found "APPX" location attribute ".\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.11.appx" in the SDK manifest.
+           Found "APPX" location attribute ".\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.11.appx" in the SDK manifest.
+       ExpandSDKReferences:
+         Enumerating SDK Reference "Microsoft.VCLibs, Version=11.0" from "C:\Program Files (x86)\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.VCLibs\11.0\".
+         Adding reference "References\CommonConfiguration\neutral\platform.winmd".
+       InitializeBuildStatus:
+         Creating "Debug\PDFReader.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       MarkupCompilePass1:
+         (Out) GeneratedCodeFiles: 'E:\PDF\PDFReader\PDFReader\Debug\App.g.h;E:\PDF\PDFReader\PDFReader\Debug\App.g.hpp;E:\PDF\PDFReader\PDFReader\Debug\Common\StandardStyles.g.h;E:\PDF\PDFReader\PDFReader\Debug\Common\StandardStyles.g.hpp;E:\PDF\PDFReader\PDFReader\Debug\MainPage.g.h;E:\PDF\PDFReader\PDFReader\Debug\MainPage.g.hpp;E:\PDF\PDFReader\PDFReader\Debug\XamlLibMetadataProvider.g.cpp;E:\PDF\PDFReader\PDFReader\Debug\XamlTypeInfo.Impl.g.cpp'
+         (Out) GeneratedXamlFiles: ''
+         (Out) ClCompile: 'App.xaml.cpp;MainPage.xaml.cpp;pch.cpp'
+         (Out) Compile: ''
+       ClCompile:
+         All outputs are up-to-date.
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IE:\PDF\PDFReader\PDFReader\ /IDebug\ /ZI /ZW /ZW:nostdlib /nologo /W3 /WX- /sdl /MP /Od /Oy- /D _UNICODE /D UNICODE /D _DEBUG /D WINAPI_FAMILY=WINAPI_FAMILY_APP /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"pch.h" /Fp"Debug\PDFReader.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /FU"C:\Program Files (x86)\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.VCLibs\11.0\References\CommonConfiguration\neutral\platform.winmd" /FU"C:\Program Files (x86)\Windows Kits\8.0\References\CommonConfiguration\Neutral\Windows.winmd" /FU"C:\Program Files (x86)\Windows Kits\8.0\References\CommonConfiguration\Neutral\Windows.winmd" /analyze- /errorReport:prompt /bigobj App.xaml.cpp MainPage.xaml.cpp
+         App.xaml.cpp
+         MainPage.xaml.cpp
+       CreateWinMD:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\PDF\PDFReader\Debug\PDFReader\PDFReader.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib /MANIFEST:NO /DEBUG /PDB:"E:\PDF\PDFReader\Debug\PDFReader\PDFReader.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /APPCONTAINER /WINMD:ONLY /WINMDFILE:"E:\PDF\PDFReader\Debug\PDFReader\PDFReader.winmd" /DYNAMICBASE /NXCOMPAT /MACHINE:X86 Debug\App.xaml.obj
+         Debug\MainPage.xaml.obj
+         Debug\pch.obj
+         Debug\XamlTypeInfo.Impl.g.obj
+       MarkupCompilePass2:
+         (Out) GeneratedCodeFiles: 'E:\PDF\PDFReader\PDFReader\Debug\App.g.h;E:\PDF\PDFReader\PDFReader\Debug\App.g.hpp;E:\PDF\PDFReader\PDFReader\Debug\Common\StandardStyles.g.h;E:\PDF\PDFReader\PDFReader\Debug\Common\StandardStyles.g.hpp;E:\PDF\PDFReader\PDFReader\Debug\MainPage.g.h;E:\PDF\PDFReader\PDFReader\Debug\MainPage.g.hpp;E:\PDF\PDFReader\PDFReader\Debug\XamlLibMetadataProvider.g.cpp;E:\PDF\PDFReader\PDFReader\Debug\XamlTypeInfo.Impl.g.cpp;E:\PDF\PDFReader\PDFReader\Debug\App.g.hpp;E:\PDF\PDFReader\PDFReader\Debug\Common\StandardStyles.g.hpp;E:\PDF\PDFReader\PDFReader\Debug\MainPage.g.hpp;E:\PDF\PDFReader\PDFReader\Debug\XamlTypeInfo.g.cpp'
+         (Out) GeneratedXamlFiles: 'E:\PDF\PDFReader\PDFReader\Debug\App.xaml;E:\PDF\PDFReader\PDFReader\Debug\Common\StandardStyles.xaml;E:\PDF\PDFReader\PDFReader\Debug\MainPage.xaml'
+         (Out) ClCompile: 'App.xaml.cpp;MainPage.xaml.cpp;pch.cpp;Debug\StandardStyles.g.cpp;Debug\MainPage.g.cpp;Debug\App.g.cpp;Debug\XamlTypeInfo.g.cpp;Debug\XamlTypeInfo.Impl.g.cpp'
+         (Out) Compile: ''
+       CompileXamlGeneratedFiles:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IE:\PDF\PDFReader\PDFReader\ /IDebug\ /ZI /ZW /ZW:nostdlib /nologo /W3 /WX- /sdl /MP /Od /Oy- /D _UNICODE /D UNICODE /D _DEBUG /D WINAPI_FAMILY=WINAPI_FAMILY_APP /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"pch.h" /Fp"Debug\PDFReader.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /FU"C:\Program Files (x86)\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.VCLibs\11.0\References\CommonConfiguration\neutral\platform.winmd" /FU"C:\Program Files (x86)\Windows Kits\8.0\References\CommonConfiguration\Neutral\Windows.winmd" /FU"C:\Program Files (x86)\Windows Kits\8.0\References\CommonConfiguration\Neutral\Windows.winmd" /analyze- /errorReport:prompt /bigobj Debug\XamlTypeInfo.g.cpp
+         XamlTypeInfo.g.cpp
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\PDF\PDFReader\Debug\PDFReader\PDFReader.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib /MANIFEST:NO /DEBUG /PDB:"E:\PDF\PDFReader\Debug\PDFReader\PDFReader.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /APPCONTAINER /WINMD:NO /WINMDFILE:"E:\PDF\PDFReader\Debug\PDFReader\PDFReader.winmd" /DYNAMICBASE /NXCOMPAT /MACHINE:X86 Debug\App.xaml.obj
+         Debug\MainPage.xaml.obj
+         Debug\pch.obj
+         Debug\XamlTypeInfo.Impl.g.obj
+         Debug\XamlTypeInfo.g.obj
+            Creating library E:\PDF\PDFReader\Debug\PDFReader\PDFReader.lib and object E:\PDF\PDFReader\Debug\PDFReader\PDFReader.exp
+         PDFReader.vcxproj -> E:\PDF\PDFReader\Debug\PDFReader\PDFReader.exe
+       CopyGeneratedXaml:
+         Copying file from "Debug\MainPage.xaml" to "E:\PDF\PDFReader\Debug\PDFReader\MainPage.xaml".
+       CustomOutputGroupForPackaging:
+         (Out) ProcessedXamlFiles: 'E:\PDF\PDFReader\Debug\PDFReader\Common\StandardStyles.xaml;E:\PDF\PDFReader\Debug\PDFReader\MainPage.xaml;E:\PDF\PDFReader\Debug\PDFReader\App.xaml'
+       GetPackagingOutputs:
+         PDFReader : PDFReader.ProjectPriFile : E:\PDF\PDFReader\Debug\PDFReader\resources.pri -> resources.pri
+         PDFReader : PDFReader.BuiltProjectOutputGroup : E:\PDF\PDFReader\Debug\PDFReader\PDFReader.exe -> PDFReader.exe
+         PDFReader : PDFReader.DebugSymbolsProjectOutputGroup : E:\PDF\PDFReader\Debug\PDFReader\PDFReader.pdb -> PDFReader.pdb
+         PDFReader : PDFReader.CopyWinmdArtifactsOutputGroup : E:\PDF\PDFReader\Debug\PDFReader\PDFReader.winmd -> PDFReader.winmd
+         PDFReader : PDFReader.ContentFilesProjectOutputGroup : E:\PDF\PDFReader\PDFReader\Assets\Logo.png -> Assets\Logo.png
+         PDFReader : PDFReader.ContentFilesProjectOutputGroup : E:\PDF\PDFReader\PDFReader\Assets\SmallLogo.png -> Assets\SmallLogo.png
+         PDFReader : PDFReader.ContentFilesProjectOutputGroup : E:\PDF\PDFReader\PDFReader\Assets\StoreLogo.png -> Assets\StoreLogo.png
+         PDFReader : PDFReader.ContentFilesProjectOutputGroup : E:\PDF\PDFReader\PDFReader\Assets\SplashScreen.png -> Assets\SplashScreen.png
+         PDFReader : PDFReader.CustomOutputGroupForPackaging : E:\PDF\PDFReader\Debug\PDFReader\Common\StandardStyles.xaml -> Common\StandardStyles.xaml
+         PDFReader : PDFReader.CustomOutputGroupForPackaging : E:\PDF\PDFReader\Debug\PDFReader\MainPage.xaml -> MainPage.xaml
+         PDFReader : PDFReader.CustomOutputGroupForPackaging : E:\PDF\PDFReader\Debug\PDFReader\App.xaml -> App.xaml
+         PDFReader : PDFReader.GetResolvedSDKReferences : C:\Program Files (x86)\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.VCLibs\11.0\ -> 
+         PDFReader : PDFReader._GetProjectArchitecture : x86 -> 
+       _GenerateProjectPriConfigurationFiles:
+       Skipping target "_GenerateProjectPriConfigurationFiles" because all output files are up-to-date with respect to the input files.
+       _GenerateProjectPriFileCore:
+       Skipping target "_GenerateProjectPriFileCore" because all output files are up-to-date with respect to the input files.
+       _GenerateCurrentProjectAppxManifest:
+       Skipping target "_GenerateCurrentProjectAppxManifest" because all output files are up-to-date with respect to the input files.
+       FinalizeBuildStatus:
+         Deleting file "Debug\PDFReader.unsuccessfulbuild".
+         Touching "Debug\PDFReader.lastbuildstate".
+     1>Done Building Project "E:\PDF\PDFReader\PDFReader\PDFReader.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.24

@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>SJTUZLP</Machine>
+    <WindowsUser>ZLP</WindowsUser>
+    <SolutionConfiguration>Debug|Win32</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="E:\PDF\PDFReader\Debug\PDFReader\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="E:\PDF\PDFReader\Debug\PDFReader\PDFReader.exe">
+      <PackagePath>PDFReader.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\PDF\PDFReader\Debug\PDFReader\PDFReader.pdb">
+      <PackagePath>PDFReader.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\PDF\PDFReader\Debug\PDFReader\PDFReader.winmd">
+      <PackagePath>PDFReader.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\PDF\PDFReader\PDFReader\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\PDF\PDFReader\PDFReader\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\PDF\PDFReader\PDFReader\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\PDF\PDFReader\PDFReader\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\PDF\PDFReader\Debug\PDFReader\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\PDF\PDFReader\Debug\PDFReader\MainPage.xaml">
+      <PackagePath>MainPage.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\PDF\PDFReader\Debug\PDFReader\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\PDF\PDFReader\Debug\PDFReader\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files (x86)\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.VCLibs\11.0\">
+      <Name>Microsoft.VCLibs.110.Debug</Name>
+      <Version>11.0.50522.1</Version>
+      <Architecture>X86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.110.Debug, MinVersion = 11.0.50522.1</FrameworkIdentity>
+      <AppxLocation>C:\Program Files (x86)\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.VCLibs\11.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.11.appx</AppxLocation>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files (x86)\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.VCLibs\11.0\">
+      <Name>Microsoft.VCLibs.110.Debug</Name>
+      <Version>11.0.50522.1</Version>
+      <Architecture>X64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.110.Debug, MinVersion = 11.0.50522.1</FrameworkIdentity>
+      <AppxLocation>C:\Program Files (x86)\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.VCLibs\11.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.11.appx</AppxLocation>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>
